@@ -28,7 +28,7 @@ Url: /api/v1/patients
 <br/>sex: string,min=1/max=20
 <br/>passport: string,min=1000000/max=9999999
 <br/>}  
-Метод передбачає реалізацію pagination у розмірі п'яти елементів за один запит  
+Метод предусматривает реализацию pagination в розмере пяти элементов за один запрос  
 ####  GET(id):
 Url: /api/v1/patients/{id}
 <br/>Входная модель: {id : int}
@@ -52,7 +52,7 @@ Url: /api/v1/hospitals
 <br/>id : int, min=1/max=1000
 <br/>address: string, min=1/max=1000
 <br/>}  
-Метод передбачає реалізацію pagination у розмірі п'яти елементів за один запит  
+Метод предусматривает реализацию pagination в розмере пяти элементов за один запрос    
 ####  GET(id):
 Url: /api/v1/hospitals/{id}
 <br/>Входная модель: {id : int}
@@ -105,7 +105,7 @@ Url: /api/v1/hospitals/{hospitalsId}/patients
 <br/>sex: string,min=1/max=20
 <br/>passport: string,min=1000000/max=9999999
 <br/>}  
-Метод передбачає реалізацію pagination у розмірі п'яти елементів за один запит  
+Метод предусматривает реализацию pagination в розмере пяти элементов за один запрос   
 ####  GET(id):
 Url: /api/v1/hospitals/{hospitalsId}/patients/{id}
 <br/>Входная модель: {id : int, min=1/max=1000}
