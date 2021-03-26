@@ -3,10 +3,7 @@
 ### Пациенты :
 #### Типичный представитель сотрудник больницы:
 * должен иметь возможность вести мониторинг всех пациентов(GET) и мониторинг 
-конкретного пациента(GET by ID);
-* должен иметь возможность добавлять пациента в базу данных пациентов(POST);
-* должен иметь возможность вносить изменения в существующие записи (PUT и PATCH);
-* должен иметь возможность удалять конкретные записи пациентов лентральной больницы(DELETE);
+конкретного пациента(GET by ID);  
 * должен иметь возможность мониторить переполнение центральной больницы пациентами.
 
 ### Больницы:
@@ -44,44 +41,7 @@ Url: /api/v1/patients/{id}
 <br/>sex: string,min=1/max=20
 <br/>passport: string,min=1000000/max=9999999
 <br/>}
-####  POST:
-Url: /api/v1/patients
-<br/>Входная модель: 
-<br/>{
-<br/>id : int, min=1/max=1000
-<br/>name: string, min=1/max=99
-<br/>surname: string, min=1/max=99
-<br/>birthday: date,  min=1800/max=2021
-<br/>sex: string,min=1/max=20
-<br/>passport: string,min=1000000/max=9999999
-<br/>}
-<br/>Выходная модель:
-<br/>{
-<br/>id: int, min=1/max=1000
-<br/>status: string, min=1/max=99
-<br/>}
-####  PUT(id):
-Url: /api/v1/patients/{id}
-<br/>Входная модель: 
-<br/>{
-<br/>id : int, min=1/max=1000
-<br/>name: string, min=1/max=99
-<br/>surname: string, min=1/max=99
-<br/>birthday: date,  min=1800/max=2021
-<br/>sex: string,min=1/max=20
-<br/>passport: string,min=1000000/max=9999999
-<br/>}
-<br/>Выходная модель:
-<br/>{
-<br/>id: int, min=1/max=1000
-<br/>status: string, min=1/max=99
-<br/>}
-#### DELETE(id) 
-Url: /api/v1/patients
-<br/>Входная модель: 
-<br/>{ id: int, min=1/max=1000}
-<br/>Выходная модель:
-<br/>{ isDeleted: string, min=1/max=99}
+
 
 ###  Описание больниц:
 ####  GET:
