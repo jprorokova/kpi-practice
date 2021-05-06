@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{52DC4D83-D8C2-460D-B326-ADFBF5FA6E6B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bank.Data/Banks/BankRepository.cs">
+    <Files>
+      <File FileName="Bank.Core/Banks/Bank.cs" Line="9" Column="39" />
+      <File FileName="Bank.Core/Banks/IBankRepository.cs" Line="11" Column="17" />
+      <File FileName="Bank.Core/Banks/IBankService.cs" Line="11" Column="16" />
+      <File FileName="Bank.Core/Clients/Client.cs" />
+      <File FileName="Bank.Core/Clients/IClientService.cs" />
+      <File FileName="Bank.Core/Clients/IClientRepository.cs" />
+      <File FileName="Bank.Data/Banks/Bank.cs" Line="7" Column="5" />
+      <File FileName="Bank.Data/Banks/BankRepository.cs" Line="37" Column="28" />
+      <File FileName="Bank.Orchestrators/Banks/BankService.cs" />
+      <File FileName="Bank.Orchestrators/Clients/ClientService.cs" />
+      <File FileName="Bank.Data/BankContext.cs" />
+      <File FileName="Bank.Data/Clients/Client.cs" Line="2" Column="1" />
+      <File FileName="Bank.Data/Clients/ClientRepository.cs" Line="22" Column="51" />
+      <File FileName="Bank.Onion/Controllers/ClientController.cs" />
+      <File FileName="Bank.Onion/ClientContract/Client.cs" />
+      <File FileName="Bank.Onion/ClientContract/ClientProfile.cs" Line="11" Column="23" />
+      <File FileName="Bank.Onion/Controllers/BankController.cs" Line="24" Column="9" />
+      <File FileName="Bank.Onion/BankContract/Bank.cs" Line="10" Column="12" />
+      <File FileName="Bank.Onion/BankContract/BankProfile.cs" Line="10" Column="23" />
+      <File FileName="Bank.Onion/BankContract/UpdateCount.cs" />
+      <File FileName="Bank.Onion/ClientContract/UpdateSum.cs" />
+      <File FileName="Bank.Onion/Startup.cs" Line="35" Column="1" />
+      <File FileName="Bank.Onion/Properties/launchSettings.json" />
+      <File FileName="Bank.Onion/appsettings.json" Line="11" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Bank.Onion" expanded="True">
+            <Node name="Bank.Core" expanded="True">
+              <Node name="Banks" expanded="True" />
+            </Node>
+            <Node name="Bank.Data" expanded="True">
+              <Node name="Banks" expanded="True">
+                <Node name="BankRepository.cs" selected="True" />
+              </Node>
+              <Node name="Clients" expanded="True" />
+            </Node>
+            <Node name="Bank.Onion" expanded="True">
+              <Node name="BankContract" expanded="True" />
+              <Node name="ClientContract" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Bank.Onion PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
