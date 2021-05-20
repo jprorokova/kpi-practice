@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -10,12 +10,12 @@ namespace Hospital.Onion.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class Patient : ControllerBase
+    public class PatientsController : ControllerBase
     {
         private readonly IPatientService _service;
         private readonly IMapper _mapper;
 
-        public Patient(IPatientService service, IMapper mapper)
+        public PatientsController(IPatientService service, IMapper mapper)
         {
             _mapper = mapper;
             _service = service;
@@ -31,8 +31,8 @@ namespace Hospital.Onion.Controllers
         [HttpGet("id")]
         public async Task<IActionResult> GetByIdAsync(int id)
         {
-            var Hospitals = await _service.GetByIdAsync(id);
-            return Ok(_mapper.Map<List<PatientContract.Patient>>(Hospitals));
+            var Patient = await _service.GetByIdAsync(id);
+            return Ok(_mapper.Map<List<PatientContract.Patient>>(Patient));
         }
         [HttpPost]
         public async Task<IActionResult> PostAsync(PatientContract.Patient patient)

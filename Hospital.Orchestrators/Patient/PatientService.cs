@@ -37,7 +37,9 @@ namespace Hospital.Orchestrators.Clients
 
         public async Task<Core.Patients.Patient> GetByIdAsync(int id)
         {
-            
+            var patient = await _repository.GetByIdAsync(id);
+            if (patient == null)
+                throw new ArgumentOutOfRangeException();
             return await _repository.GetByIdAsync(id);
         }
 

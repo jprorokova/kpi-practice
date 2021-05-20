@@ -1,5 +1,4 @@
-﻿using System;
-namespace Hospital.Core.Hospitals
+﻿namespace Hospital.Core.Hospitals
 {
     public class Hospital
     {

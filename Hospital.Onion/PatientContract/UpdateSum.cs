@@ -1,5 +1,4 @@
-﻿using System;
-namespace Hospital.Onion.PatientContract
+﻿namespace Hospital.Onion.PatientContract
 {
     public class UpdateSum
     {

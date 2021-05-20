@@ -8,6 +8,6 @@
     <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bank.Core\Hospital.Core.csproj" />
+    <ProjectReference Include="..\Hospital.Core\Hospital.Core.csproj" />
   </ItemGroup>
 </Project>

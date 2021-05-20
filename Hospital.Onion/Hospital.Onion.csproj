@@ -11,14 +11,17 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bank.Core\Hospital.Core.csproj">
+    <ProjectReference Include="..\Hospital.Core\Hospital.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\Bank.Orchestrators\Hospital.Orchestrators.csproj">
+    <ProjectReference Include="..\Hospital.Orchestrators\Hospital.Orchestrators.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\Bank.Data\Hospital.Data.csproj">
+    <ProjectReference Include="..\Hospital.Data\Hospital.Data.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>

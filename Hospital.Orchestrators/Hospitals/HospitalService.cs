@@ -18,7 +18,7 @@ namespace Hospital.Orchestrators.Hospitals
             return await _repository.AddHospitalAsync(hospital);
         }
 
-        public async Task<Core.Hospitals.Hospital> UpdateHospitalAsync(int id, int count)
+        public async Task<Core.Hospitals.Hospital> UpdateHospitalAsync(int id, int  count)
         {
             var hospital = await _repository.GetByIdAsync(id);
             if (hospital == null)
@@ -37,14 +37,18 @@ namespace Hospital.Orchestrators.Hospitals
 
         public async Task<Core.Hospitals.Hospital> GetByIdAsync(int id)
         {
-            
+            var hospital = await _repository.GetByIdAsync(id);
+            if (hospital == null)
+                throw new ArgumentOutOfRangeException();
             return await _repository.GetByIdAsync(id);
         }
 
         public async Task RemoveById(int id)
         {
             var hospital = await _repository.GetByIdAsync(id);
-            
+            if (hospital == null)
+                throw new ArgumentOutOfRangeException();
+           
             await _repository.RemoveById(id);
         }
     }

@@ -12,9 +12,7 @@ namespace Hospital.Data.Hospitals
         public int Id { get; set; }
         [Required]
         [Column("address")]
-        [Range(0.0, 1000.0)]
         public string Address { get; set; }
-        
         [Column("count")]
         public int Count { get; set; }
     }

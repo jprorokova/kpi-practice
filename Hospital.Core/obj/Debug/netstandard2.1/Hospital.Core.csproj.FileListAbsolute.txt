@@ -1,0 +1,9 @@
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.deps.json
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.pdb
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.csprojAssemblyReference.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.AssemblyInfoInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.AssemblyInfo.cs
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.csproj.CoreCompileInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.pdb

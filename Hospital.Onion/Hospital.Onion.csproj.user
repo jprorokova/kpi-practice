@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>Bank.Onion</ActiveDebugProfile>
+    <ActiveDebugProfile>Hospital.Onion</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

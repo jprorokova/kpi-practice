@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Hospital.Core.Hospitals;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Hospital.Data.Hospitals
 {
@@ -27,7 +27,7 @@ namespace Hospital.Data.Hospitals
 
         public async Task<Core.Hospitals.Hospital> UpdateHospitalAsync(int id, int count)
         {
-            var entitie = _mapper.Map<Hospital>(count);
+            var entitie =_mapper.Map<Hospital>(count);
             var result = _context.Update(entitie);
             return _mapper.Map<Core.Hospitals.Hospital>(result.Entity);
         }

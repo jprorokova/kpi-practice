@@ -1,6 +1,6 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Hospital.Onion.PatientContract
 {
     [Table("Patient")]
@@ -17,7 +17,7 @@ namespace Hospital.Onion.PatientContract
         public string SurName { get; set; }
         [Required]
         [Column("birthday")]
-        public string Birthday { get; set; }
+        public System.DateTime Birthday { get; set; }
         [Required]
         [Column("sum")]
         public int Sum { get; set; }

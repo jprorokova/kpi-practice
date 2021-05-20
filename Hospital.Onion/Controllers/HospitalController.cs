@@ -10,12 +10,12 @@ namespace Hospital.Onion.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class Hospital : ControllerBase
+    public class HospitalsController : ControllerBase
     {
         private readonly IHospitalService _service;
         private readonly IMapper _mapper;
 
-        public Hospital(IHospitalService service, IMapper mapper)
+        public HospitalsController(IHospitalService service, IMapper mapper)
         {
             _mapper = mapper;
             _service = service;
@@ -31,8 +31,8 @@ namespace Hospital.Onion.Controllers
         [HttpGet("id")]
         public async Task<IActionResult> GetByIdAsync(int id)
         {
-            var Banks = await _service.GetByIdAsync(id);
-            return Ok(_mapper.Map<List<HospitalContract.Hospital>>(Banks));
+            var Hospitals = await _service.GetByIdAsync(id);
+            return Ok(_mapper.Map<List<HospitalContract.Hospital>>(Hospitals));
         }
         [HttpPost]
         public async Task<IActionResult> PostAsync(HospitalContract.Hospital hospital)
@@ -46,7 +46,7 @@ namespace Hospital.Onion.Controllers
         [HttpPatch("{id}")]
         public async Task<IActionResult> UpdateCount(int id, UpdateCount count)
         {
-            await _service.UpdateHospitalAsync(id, id);
+            await _service.UpdateHospitalAsync(id, count.count);
             return Ok(_mapper.Map<HospitalContract.Hospital>(id));
         }
         [HttpDelete("{id}")]
