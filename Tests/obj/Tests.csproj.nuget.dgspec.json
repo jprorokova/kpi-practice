@@ -1,0 +1,374 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\kurs2\\2 sem\\kpi-practice\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj",
+        "projectName": "Hospital.Core",
+        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj",
+        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
+        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj",
+        "projectName": "Hospital.Data",
+        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj",
+        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
+        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj",
+        "projectName": "Hospital.Onion",
+        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj",
+        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
+        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              },
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj"
+              },
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj",
+        "projectName": "Hospital.Orchestrators",
+        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj",
+        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
+        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\kurs2\\2 sem\\kpi-practice\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
+        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              },
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj"
+              },
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj"
+              },
+              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj": {
+                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

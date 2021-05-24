@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Hospital.Core.Patients;
 
-namespace Hospital.Orchestrators.Clients
+namespace Hospital.Orchestrators.Patients
 {
     public class PatientService : IPatientService
     {
