@@ -1,0 +1,12 @@
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\bin\Debug\netstandard2.1\Hospital.Orchestrators.deps.json
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\bin\Debug\netstandard2.1\Hospital.Orchestrators.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\bin\Debug\netstandard2.1\Hospital.Orchestrators.pdb
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\bin\Debug\netstandard2.1\Hospital.Core.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\bin\Debug\netstandard2.1\Hospital.Core.pdb
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.csprojAssemblyReference.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.AssemblyInfoInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.AssemblyInfo.cs
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.csproj.CoreCompileInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.csproj.CopyComplete
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Orchestrators\obj\Debug\netstandard2.1\Hospital.Orchestrators.pdb

@@ -1,0 +1,12 @@
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\bin\Debug\netstandard2.1\Hospital.Data.deps.json
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\bin\Debug\netstandard2.1\Hospital.Data.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\bin\Debug\netstandard2.1\Hospital.Data.pdb
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\bin\Debug\netstandard2.1\Hospital.Core.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\bin\Debug\netstandard2.1\Hospital.Core.pdb
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.csprojAssemblyReference.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.AssemblyInfoInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.AssemblyInfo.cs
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.csproj.CoreCompileInputs.cache
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.csproj.CopyComplete
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.dll
+C:\kurs2\2 sem\kpi-practice\Hospital.Data\obj\Debug\netstandard2.1\Hospital.Data.pdb
