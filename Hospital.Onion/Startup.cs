@@ -3,10 +3,9 @@ using Hospital.Core.Patients;
 using Hospital.Data;
 using Hospital.Data.Hospitals;
 using Hospital.Data.Patients;
-using Hospital.Onion.HospitalContract;
-using Hospital.Onion.PatientContract;
 using Hospital.Orchestrators.Hospitals;
-using Hospital.Orchestrators.Clients;
+using Hospital.Orchestrators.Patient;
+using Hospital.Orchestrators.Patients;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +32,7 @@ namespace Hospital.Onion
             string connString = Configuration.GetConnectionString("HospitalDB");
             services.AddDbContext<HospitalContext>(options => options.UseNpgsql(connString));
 
+            services.AddAutoMapper(typeof(HospitalProfile), typeof(HospitalDaoProfile), typeof(PatientProfile), typeof(DaoPatientProfile));
             services.AddScoped<IHospitalRepository, HospitalRepository>();
             services.AddScoped<IHospitalService, HospitalService>();
 

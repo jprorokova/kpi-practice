@@ -27,9 +27,12 @@ namespace Hospital.Data.Hospitals
 
         public async Task<Core.Hospitals.Hospital> UpdateHospitalAsync(int id, int count)
         {
-            var entitie =_mapper.Map<Hospital>(count);
-            var result = _context.Update(entitie);
+            var entity = await _context.hospitals.FirstAsync(x => x.Id == id);
+            entity.Count = count;
+            var result = _context.Update(entity);
+            await _context.SaveChangesAsync();
             return _mapper.Map<Core.Hospitals.Hospital>(result.Entity);
+
         }
 
         public async Task<List<Core.Hospitals.Hospital>> GetListAsync()
@@ -40,14 +43,15 @@ namespace Hospital.Data.Hospitals
 
         public async Task<Core.Hospitals.Hospital> GetByIdAsync(int id)
         {
-            var entitie = await _context.hospitals.FirstOrDefaultAsync(x => x.Id == id);
+            var entitie = await _context.hospitals.FirstAsync(x => x.Id == id);
             return _mapper.Map<Core.Hospitals.Hospital>(entitie);
         }
 
         public async Task RemoveById(int id)
         {
-            var entetie = await _context.hospitals.FirstOrDefaultAsync(x => x.Id == id);
+            var entetie = await _context.hospitals.FirstAsync(x => x.Id == id);
             _context.hospitals.Remove(entetie);
+            await _context.SaveChangesAsync();
         }
     }
 

@@ -22,7 +22,7 @@ namespace Hospital.Data.Patients
         [Required]
         [Column("birthday")]
 
-        public System.DateTime Birthday { get; set; }
+        public string Birthday { get; set; }
        
       
         [Required]

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Hospital.Core.Patients;
-using Hospital.Onion.PatientContract;
+using Hospital.Orchestrators.Patient;
 using Microsoft.AspNetCore.Mvc;
+using Patient = Hospital.Orchestrators.Patient.Patient;
 
 namespace Hospital.Onion.Controllers
 {
@@ -25,29 +26,27 @@ namespace Hospital.Onion.Controllers
         public async Task<IActionResult> GetAsync()
         {
             var entity = await _service.GetListAsync();
-            return Ok(_mapper.Map<List<PatientContract.Patient>>(entity));
+            return Ok(_mapper.Map<List<Patient>>(entity));
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync(int id)
         {
-            var Patient = await _service.GetByIdAsync(id);
-            return Ok(_mapper.Map<List<PatientContract.Patient>>(Patient));
+            var patient = await _service.GetByIdAsync(id);
+            return Ok(_mapper.Map<Patient>(patient));
         }
-        [HttpPost]
-        public async Task<IActionResult> PostAsync(PatientContract.Patient patient)
+        [HttpPost("{id}")]
+        public async Task<IActionResult> PostAsync(Patient patient)
         {
             var patientModel = _mapper.Map<Core.Patients.Patient>(patient);
             var createdModel = await _service.AddPatientAsync(patientModel);
-            return Ok(_mapper.Map<PatientContract.Patient>(createdModel));
-
-
+            return Ok(_mapper.Map<Patient>(createdModel));
         }
         [HttpPatch("{id}")]
         public async Task<IActionResult> UpdateCount(int id, UpdateSum sum)
         {
             await _service.UpdatePatientAsync(id, id);
-            return Ok(_mapper.Map<PatientContract.Patient>(id));
+            return Ok();
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> GetAsync(int Id)

@@ -1,5 +1,0 @@
-C:\kurs2\2 sem\kpi-practice\Tests\obj\Debug\net5.0\Tests.csprojAssemblyReference.cache
-C:\kurs2\2 sem\kpi-practice\Tests\obj\Debug\net5.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\kurs2\2 sem\kpi-practice\Tests\obj\Debug\net5.0\Tests.AssemblyInfoInputs.cache
-C:\kurs2\2 sem\kpi-practice\Tests\obj\Debug\net5.0\Tests.AssemblyInfo.cs
-C:\kurs2\2 sem\kpi-practice\Tests\obj\Debug\net5.0\Tests.csproj.CoreCompileInputs.cache

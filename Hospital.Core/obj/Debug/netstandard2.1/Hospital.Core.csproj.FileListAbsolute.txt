@@ -1,9 +1,25 @@
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.deps.json
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.dll
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\bin\Debug\netstandard2.1\Hospital.Core.pdb
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.csprojAssemblyReference.cache
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.AssemblyInfoInputs.cache
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.AssemblyInfo.cs
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.csproj.CoreCompileInputs.cache
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.dll
-C:\kurs2\2 sem\kpi-practice\Hospital.Core\obj\Debug\netstandard2.1\Hospital.Core.pdb
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.TestPlatform.AdapterUtilities.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.deps.json
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.pdb
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.AssemblyInfoInputs.cache
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.AssemblyInfo.cs
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.csproj.CoreCompileInputs.cache
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.dll
+C:/kurs2/2 sem/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.pdb
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Microsoft.TestPlatform.AdapterUtilities.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.deps.json
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/bin/Debug/netstandard2.1/Hospital.Core.pdb
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.csprojAssemblyReference.cache
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.AssemblyInfoInputs.cache
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.AssemblyInfo.cs
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.csproj.CoreCompileInputs.cache
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.dll
+/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/Debug/netstandard2.1/Hospital.Core.pdb

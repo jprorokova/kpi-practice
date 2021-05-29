@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj": {}
+    "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Onion/Hospital.Onion.csproj": {}
   },
   "projects": {
-    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
+    "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj",
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj",
         "projectName": "Hospital.Core",
-        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj",
-        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
-        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\obj\\",
+        "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,24 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,36 +70,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj": {
+    "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/Hospital.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj",
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/Hospital.Data.csproj",
         "projectName": "Hospital.Data",
-        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj",
-        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
-        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\obj\\",
+        "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/Hospital.Data.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
-                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj"
               }
             }
           }
@@ -102,9 +116,21 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.5.1, )"
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
@@ -122,42 +148,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj": {
+    "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Onion/Hospital.Onion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj",
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Onion/Hospital.Onion.csproj",
         "projectName": "Hospital.Onion",
-        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\Hospital.Onion.csproj",
-        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
-        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Onion\\obj\\",
+        "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Onion/Hospital.Onion.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Onion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
-                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj"
               },
-              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj": {
-                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Data\\Hospital.Data.csproj"
+              "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/Hospital.Data.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Data/Hospital.Data.csproj"
               },
-              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj": {
-                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj"
+              "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/Hospital.Orchestrators.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/Hospital.Orchestrators.csproj"
               }
             }
           }
@@ -180,9 +204,21 @@
               "target": "Package",
               "version": "[8.1.1, )"
             },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.5.1, )"
+              "version": "[5.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -207,36 +243,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj": {
+    "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/Hospital.Orchestrators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj",
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/Hospital.Orchestrators.csproj",
         "projectName": "Hospital.Orchestrators",
-        "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\Hospital.Orchestrators.csproj",
-        "packagesPath": "C:\\Users\\jpror\\.nuget\\packages\\",
-        "outputPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Orchestrators\\obj\\",
+        "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/Hospital.Orchestrators.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Orchestrators/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jpror\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj": {
-                "projectPath": "C:\\kurs2\\2 sem\\kpi-practice\\Hospital.Core\\Hospital.Core.csproj"
+              "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/kpi-practice/kpi-practice/Hospital.Core/Hospital.Core.csproj"
               }
             }
           }
@@ -250,6 +284,28 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -265,7 +321,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
