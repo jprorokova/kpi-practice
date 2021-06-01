@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.809.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Onion", "Bank.Onion\Hospital.Onion.csproj", "{52DC4D83-D8C2-460D-B326-ADFBF5FA6E6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Onion", "Hospital.Onion\Hospital.Onion.csproj", "{52DC4D83-D8C2-460D-B326-ADFBF5FA6E6B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Core", "Bank.Core\Hospital.Core.csproj", "{7D9813B9-26CB-4ADB-967E-E868E9C4B825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Core", "Hospital.Core\Hospital.Core.csproj", "{7D9813B9-26CB-4ADB-967E-E868E9C4B825}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Data", "Bank.Data\Hospital.Data.csproj", "{D89BC7AF-3210-4E98-881B-7C548977EB8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Data", "Hospital.Data\Hospital.Data.csproj", "{D89BC7AF-3210-4E98-881B-7C548977EB8D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Orchestrators", "Bank.Orchestrators\Hospital.Orchestrators.csproj", "{CC4E2BEE-460A-42FB-B38E-9ACA9B65FA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Orchestrators", "Hospital.Orchestrators\Hospital.Orchestrators.csproj", "{CC4E2BEE-460A-42FB-B38E-9ACA9B65FA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{7A73B81B-3BCE-48D2-8A52-E2F08510F088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CC4E2BEE-460A-42FB-B38E-9ACA9B65FA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4E2BEE-460A-42FB-B38E-9ACA9B65FA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4E2BEE-460A-42FB-B38E-9ACA9B65FA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A73B81B-3BCE-48D2-8A52-E2F08510F088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A73B81B-3BCE-48D2-8A52-E2F08510F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A73B81B-3BCE-48D2-8A52-E2F08510F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A73B81B-3BCE-48D2-8A52-E2F08510F088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
